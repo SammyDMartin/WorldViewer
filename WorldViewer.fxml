@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.geometry.Point3D?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="810.0" maxWidth="910.0" minHeight="-Infinity" minWidth="910.0" prefHeight="790.0" prefWidth="910.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Viewer">
+   <children>
+      <ImageView fx:id="imageView" fitHeight="790.0" fitWidth="910.0" layoutX="5.0" layoutY="5.0" pickOnBounds="true" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+      <Button fx:id="leftbutton" alignment="CENTER" blendMode="ADD" layoutX="297.0" layoutY="709.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#left" opacity="0.8" prefHeight="56.0" prefWidth="80.0" text="Left" AnchorPane.bottomAnchor="25.0" AnchorPane.leftAnchor="297.0" AnchorPane.topAnchor="709.0">
+         <font>
+            <Font name="Arial" size="20.0" />
+         </font></Button>
+      <Button fx:id="forwardbutton" alignment="CENTER" blendMode="ADD" layoutX="377.0" layoutY="725.0" mnemonicParsing="false" onAction="#forward" opacity="0.8" text="Forward" AnchorPane.bottomAnchor="25.0" AnchorPane.leftAnchor="377.0" AnchorPane.rightAnchor="377.0">
+         <font>
+            <Font name="Arial" size="30.0" />
+         </font></Button>
+      <Button fx:id="rightbutton" alignment="CENTER" blendMode="ADD" layoutX="533.0" layoutY="709.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#right" opacity="0.8" prefHeight="56.0" prefWidth="80.0" text="Right" AnchorPane.bottomAnchor="25.0" AnchorPane.rightAnchor="297.0" AnchorPane.topAnchor="709.0">
+         <font>
+            <Font name="Arial" size="20.0" />
+         </font></Button>
+      <ImageView fx:id="imageView1" fitHeight="150.0" fitWidth="200.0" layoutX="97.0" layoutY="559.0" pickOnBounds="true" preserveRatio="true" />
+      <MenuBar blendMode="DIFFERENCE" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="40.0" prefWidth="66.0" AnchorPane.bottomAnchor="750.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="844.0" AnchorPane.topAnchor="0.0">
+        <menus>
+          <Menu fx:id="ItemMenu" mnemonicParsing="false" text="Items">
+            <items>
+              <MenuItem fx:id="pickup" mnemonicParsing="false" onAction="#add" text="Pick Up" />
+                  <MenuItem fx:id="putdown" mnemonicParsing="false" onAction="#remove" text="Put Down" />
+            </items>
+          </Menu>
+        </menus>
+         <rotationAxis>
+            <Point3D />
+         </rotationAxis>
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+      </MenuBar>
+      <TextField fx:id="locationbox" alignment="CENTER" blendMode="DIFFERENCE" editable="false" layoutX="730.0" prefHeight="40.0" prefWidth="180.0" AnchorPane.bottomAnchor="750.0" AnchorPane.leftAnchor="730.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="bagbox" alignment="CENTER" blendMode="DIFFERENCE" editable="false" layoutX="65.0" prefHeight="40.0" prefWidth="22.0" AnchorPane.bottomAnchor="750.0" AnchorPane.leftAnchor="65.0" AnchorPane.rightAnchor="823.0" AnchorPane.topAnchor="0.0">
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </TextField>
+   </children>
+</AnchorPane>

@@ -1,0 +1,15 @@
+{
+"ObservatoryF":{"0":null,"1":null,"2":null,"3":"Carlton Hill","4":"The Crags","5":"Cragmillar Castle"},
+"ArthursSeatF":{"0":"The Crags","1":"Carlton Hill","2":null},
+"CarltonHillF":{"0":"Arthurs Seat","1":"The Crags","2":null,"3":null},
+"PierF":{"0":null,"1":"The Crags","2":null},
+"CragmillarF":{"0":"The Crags","1":null,"2":null},
+"CragsF":{"0":"Arthurs Seat","1":"Observatory Hill","2":"Granton Pier","3":"Carlton Hill","4":null},
+
+"ObservatoryI":{"0":"obs0.jpg","1":"obs1.jpg","2":"obs2.jpg","3":"obs3.jpg","4":"obs4.jpg","5":"obs5.jpg"},
+"ArthursSeatI":{"0":"Arthur0.jpg","1":"Arthur1.jpg","2":null},
+"CarltonHillI":{"0":"Carlton0.jpg","1":"Carlton1.jpg","2":"Carlton2.jpg","3":null},
+"PierI":{"0":"Pier0.jpg","1":"Pier1.jpg","2":null},
+"CragmillarI":{"0":"Cragmillar0.jpg","1":"Cragmillar1.jpg", "2":null},
+"CragsI":{"0":"Crags0.jpg","1":"Crags1.jpg","2":"Crags2.jpg","3":"Crags3.jpg","4":"Crags4.jpg"}
+}
