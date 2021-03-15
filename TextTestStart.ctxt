@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.target=TextTestStart
+comment0.text=\r\n\ This\ is\ useful\ for\ testing.\ It\ is\ a\ text-only\ interface\ for\ the\ World\ object.\r\n\ It\ also\ establishes\ that\ World\ and\ the\ controller/viewer\ are\ independent\r\n\ \r\n\ @author\ Sammy\r\n\r\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment2.params=arg0
+comment2.target=void\ start(javafx.stage.Stage)
+numComments=3

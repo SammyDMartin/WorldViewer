@@ -1,0 +1,18 @@
+#BlueJ class context
+comment0.target=MapReader
+comment0.text=\r\n\ Reads\ the\ worldmap.json\ file\ and\ has\ public\ methods\ to\ create\ Image\ and\r\n\ \r\n\ @author\ Sammy\r\n\r\n
+comment1.params=
+comment1.target=MapReader()
+comment2.params=
+comment2.target=void\ Startup()
+comment2.text=\r\n\ Fills\ out\ keys.\r\n
+comment3.params=mapname
+comment3.target=java.util.HashMap\ ExtractMap(java.lang.String)
+comment3.text=\r\n\ \r\n\ @param\ mapname\ the\ name\ of\ the\ HashMap\ we\ want\ to\ construct\r\n\ @return\ A\ HashMap\ of\ viewangles\ and\ forwardlocation\ strings\ extracted\ from\r\n\ \ \ \ \ \ \ \ \ json\r\n
+comment4.params=mapname
+comment4.target=java.util.HashMap\ ExtractImageMap(java.lang.String)
+comment4.text=\r\n\ \r\n\ @param\ mapname\ the\ name\ of\ the\ HashMap\ we\ want\ to\ construct\r\n\ @return\ A\ HashMap\ of\ viewangles\ and\ Images\ extracted\ from\ json\r\n
+comment5.params=inputStream
+comment5.target=java.lang.String\ convert(java.io.InputStream)
+comment5.text=\r\n\ Method\ convert\ adapted\ from\r\n\ http\://roufid.com/5-ways-convert-inputstream-string-java/\#javautilscanner\r\n\ \r\n\ @return\ a\ string\ version\ of\ the\ input\ stream\r\n
+numComments=6

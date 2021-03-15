@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=Bag
+comment0.text=\r\n\ Inherited\ from\ location\ -\ Bag\ has\ only\ the\ Items\ hashmap\ and\ stores\ all\ items\r\n\ that\ are\ carried.\r\n\ \r\n\ @author\ Sammy\r\n\r\n
+comment1.params=ForwardLocations\ name\ Images\ Items
+comment1.target=Bag(java.util.HashMap,\ java.lang.String,\ java.util.HashMap,\ java.util.ArrayList)
+numComments=2

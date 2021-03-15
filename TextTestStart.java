@@ -14,29 +14,29 @@ import javafx.stage.Stage;
  *
  */
 public class TextTestStart extends Application {
-	public static void main(String[] args) throws IOException, ParseException {
+    public static void main(String[] args) throws IOException, ParseException {
 
-		World Edinbugh = new World();
+        World Edinbugh = new World();
 
-		Edinbugh.Initialize(0, "The Crags");
-		Edinbugh.Interpreter("where");
-		// The scanner is used to take console input. You have to type in the commands
-		// to interpreter manually
-		@SuppressWarnings("resource")
-		Scanner scan = new Scanner(System.in);
+        Edinbugh.Initialize(0, "The Crags");
+        Edinbugh.Interpreter("where");
+        // The scanner is used to take console input. You have to type in the commands
+        // to interpreter manually
+        @SuppressWarnings("resource")
+        Scanner scan = new Scanner(System.in);
 
-		System.out.println("Command Words:");
-		System.out.println("GOLEFT, GORIGHT, GOFWD, where, ADD, REMOVE");
+        System.out.println("Command Words:");
+        System.out.println("GOLEFT, GORIGHT, GOFWD, where, ADD, REMOVE");
 
-		while (true) {
-			String input = scan.nextLine();
-			Edinbugh.Interpreter(input);
-		}
+        while (true) {
+            String input = scan.nextLine();
+            Edinbugh.Interpreter(input);
+        }
 
-	}
+    }
 
-	@Override
-	public void start(Stage arg0) throws Exception {
+    @Override
+    public void start(Stage arg0) throws Exception {
 
-	}
+    }
 }
